@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+    ">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="image/20.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">EXPRINCE</a></li>
+                    <li><a href="">PORTFOLIO</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>Welcome To My Site</h1>
+            <p>
+                Hello My Name Is Mihajul Abedin Munna
+             I'm Web designer<br> and devloper 
+            </p>
+            <a href=""class="hero-btn">visit Us To Know more</a>
+        </div>
+    </section>
+<!----Course-->
+<section class="course">
+
+      <h1>Larn About Me</h1>
+      <p>
+        Hi, I'm Munna, a freelance Web Developer, very passionate about Web Design & Development,
+         Wordpress along with Graphics Design. Photoshop Editing My motto is "Growing up my freelance
+         services in all over the world with my client's satisfaction.
+      </p>
+      <div class="row">
+          <div class="course-col">
+              <h3>Intermediate</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentest aliquet turpis nulla, eleifend faucibus est
+                  sollicitudin ut. Maecenas ut venenats ex, et dapibus purus
+                  Donec sit,
+              </p>
+          </div>
+          <div class="course-col">
+            <h3>Honours</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentest aliquet turpis nulla, eleifend faucibus est
+                sollicitudin ut. Maecenas ut venenats ex, et dapibus purus
+                Donec sit,
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentest aliquet turpis nulla, eleifend faucibus est
+                sollicitudin ut. Maecenas ut venenats ex, et dapibus purus
+                Donec sit,
+            </p>
+        </div>
+      </div>
+
+</section>
+<!--- OUR Team---->
+<section class="team">
+    <h1>OUR TEAM</h1>
+    <P>Web are All web devloper. we works with us</P>
+    <div class="row">
+        <div class="tem-col">
+            <h3>Minhajul Abedin</h3>
+            <img src="./image/m3.jpg" alt="">
+              
+            
+        </div>
+        <div class="tem-col">
+            <h3>Samanta Farha</h3>
+            <img src="./image/e.jpg" alt="">
+               
+            
+        </div>
+        <div class="tem-col">
+            <h3>Smith Jon</h3>
+            <img src="./image/f.jpg" alt="">
+            
+        </div>
+    </div>
+</section>
+<section class="foter">
+    <div class="back">
+        <h2> Thanks For Staying With US  </h2>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------javascript for ToggleMenu------>
+    <script>
+       var navlinks = document.getElementById("navlinks");
+       function showmenu(){
+           navlinks.style.right="0";
+       }
+       function hidemenu(){
+           navlinks.style.right="-200px";
+       }
+
+
+
+    </script>
+</body>
+</html>
